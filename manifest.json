@@ -1,0 +1,24 @@
+{
+
+  "description": "auto selects dropdown in uptime",
+  "manifest_version": 2,
+  "name": "auto-select",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/page-48.png"
+  },
+
+  "permissions": [
+    "activeTab", 
+    "declarativeContent",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icons/page-32.png",
+    "default_title": "Auto Select",
+    "default_popup": "popup/autoSelect.html"
+  }
+
+}
